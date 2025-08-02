@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "name": "1.16.5 Forge Modpack",
+    "version": "1.0.0",
+    "description": "Pack moddé personnalisé pour 1.16.5 avec Forge et tous les mods ajoutés."
+  },
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType Forge",
+  "libraries": [],
+  "releaseTime": "2021-06-01T00:00:00+00:00",
+  "type": "release",
+  "inheritsFrom": "1.16.5",
+  "jar": "1.16.5",
+  "modules": [
+    {
+      "type": "required",
+      "uid": "net.minecraft",
+      "version": "1.16.5"
+    },
+    {
+      "type": "required",
+      "uid": "net.minecraftforge",
+      "version": "36.2.0"
+    },
+    { "type": "optional", "uid": "AdamRK-Heavy-Industrial", "version": "2.2.0" },
+    { "type": "optional", "uid": "AEInfinityBooster", "version": "1.0.0+12" },
+    { "type": "optional", "uid": "appliedenergistics2", "version": "8.4.7" },
+    { "type": "optional", "uid": "concord", "version": "1.0.1" },
+    { "type": "optional", "uid": "decocraft", "version": "3.0.10-beta" },
+    { "type": "optional", "uid": "FluxNetworks", "version": "6.2.1.14" },
+    { "type": "optional", "uid": "GoldenAerotransport", "version": "3.3.1" },
+    { "type": "optional", "uid": "IAV_Parts_Pack", "version": "1.0.2" },
+    { "type": "optional", "uid": "ImmersiveVehicles", "version": "22.17.0" },
+    { "type": "optional", "uid": "ImmersiveEngineering", "version": "5.1.0-148" },
+    { "type": "optional", "uid": "ImmersivePetroleum", "version": "3.4.0-20" },
+    { "type": "optional", "uid": "jei", "version": "7.8.0.1013" },
+    { "type": "optional", "uid": "journeymap", "version": "5.8.6" },
+    { "type": "optional", "uid": "Mekanism", "version": "10.1.2.457" },
+    { "type": "optional", "uid": "MekanismGenerators", "version": "10.1.2.457" },
+    { "type": "optional", "uid": "mining_dimension", "version": "1.0.6" },
+    { "type": "optional", "uid": "obfuscate", "version": "0.6.3" },
+    { "type": "optional", "uid": "Space-BossTools", "version": "5.5e" },
+    { "type": "optional", "uid": "tac-release", "version": "0.3.14.2" },
+    { "type": "optional", "uid": "Trin-Civil-Pack", "version": "4.2.3" },
+    { "type": "optional", "uid": "Trin-Parts-Pack", "version": "2.26.0" },
+    { "type": "optional", "uid": "UNU-Parts-Pack", "version": "22.17.0-6.7.1" },
+    { "type": "optional", "uid": "VEB", "version": "04.03.1971" }
+  ]
+}
